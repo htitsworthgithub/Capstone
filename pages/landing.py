@@ -25,7 +25,7 @@ if "authenticated" not in st.session_state or st.session_state["authenticated"] 
 db = Database()
 
 
-st.title("UPMS Dashboard")
+st.title("UPMS Dashboard!")
 
       
 if "new_project" not in st.session_state:
